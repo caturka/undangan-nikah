@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Dancing+Script");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -50,10 +50,10 @@ html {
 
 
 .hero .title {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Dancing Script', sans-serif;
   font-weight: 700;
   transform: rotate(-2deg);
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 5px;
   color: whitesmoke;
 }
@@ -298,17 +298,17 @@ html {
 }
 
 .nama-lengkap {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Dancing Script';
   color: #996E6D;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
   line-height: 3.7rem;
 }
 
 .ampersand {
-font-size: 5rem;
-font-family: 'Rouge Script', sans-serif;
+font-size: 4rem;
+font-family: 'Dancing Script', sans-serif;
 color: #996E6D;
 line-height: 5rem;
 display: inline-block;
@@ -332,7 +332,7 @@ vertical-align: middle;
 }
 
 .tempat {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Raleway', sans-serif;
   font-size: ;
   margin-bottom: 50px;
@@ -565,7 +565,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/1.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -574,7 +574,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/2.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -582,7 +582,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/3.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/3.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -590,7 +590,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/4.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/5.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -598,7 +598,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/5.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -607,7 +607,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/6.jpg");
+  background-image: linear-gradient(rgba(95, 2, 2, 0.2), rgba(48, 47, 47, 0.9)), url("../image/4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;

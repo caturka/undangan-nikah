@@ -1,3 +1,40 @@
+// music control
+let played = true;
+$(document).ready(function() {
+    // the site has now loaded, grab the video!
+    bgAudio = document.getElementById("bgm");
+    // now tweak the volume!
+    bgAudio.volume = 0.3;
+    // now, play it!
+    bgAudio.play();
+});
+
+function toggleMuteAudio(){
+    played = !played;
+    $("#bgm").prop("muted",!$("#bgm").prop("muted"));
+    console.log(played);
+    played? $("#toggleMusic").attr("src", "img/speaker-filled-audio-tool.png") : $("#toggleMusik").attr("src", "img/no-sound.png");
+}
+
+window.addEventListener('load', function () {
+    var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    var source = audioCtx.createBufferSource();
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'audio-autoplay.wav');
+    xhr.responseType = 'arraybuffer';
+    xhr.addEventListener('load', function (r) {
+        audioCtx.decodeAudioData(
+                xhr.response, 
+                function (buffer) {
+                    source.buffer = buffer;
+                    source.connect(audioCtx.destination);
+                    source.loop = false;
+                });
+        source.start(0);
+    });
+    xhr.send();
+});
+
 // Get that hamburger menu cookin' //
 
 document.addEventListener("DOMContentLoaded", function() {

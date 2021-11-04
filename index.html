@@ -10,8 +10,6 @@
     <meta property="og:title" content="Undangan Pernikahan Yurieke & Reinal - Kamis, 2 Desember 2021">
     <meta property="og:description" content="Undangan Pernikahan Yurieke & Reinal - Kamis, 2 Desember 2021 di Ballroom Hotel Fave, Rembang">
     <meta property="og:locale" content="id_ID" />
-    <meta property="og:image" content="https://sherly.dae.ng/image/sherly-daeng-wedding-thumbnail.png">
-    <meta property="og:url" content="http://sherly.dae.ng/index.html">
     <meta name="twitter:card" content="summary_large_image">
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
@@ -42,6 +40,9 @@
   </head>
 
   <body>
+    <audio id="bgm" autoplay loop>
+        <source src="sound/MZ-sepanjang_hidup.mp3">
+    </audio>
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
       <div class="preloader">
@@ -78,8 +79,8 @@
               </div>
               
               <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Tentang Yurieke dan Reinal
+                <a class="navbar-item" href="#galeri">
+                  Galeri
                 </a>
               </div>
               <div class="navbar-item">
@@ -126,7 +127,7 @@
               var year = now.getFullYear() + 1;
           
               var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '12/2/2021 10:00:00';
+              var harih = '12/2/2021 9:00:00';
 
               $('#hitungmundur').countdown({
                 date: harih, // TODO Date format: 07/27/2017 17:00:00
@@ -157,8 +158,8 @@
                     <a href="#lokasi">Lokasi</a>
                   </li>
                   <li>
-                    <a href="#tentang-yurieke-reinal">Tentang Yurieke & Reinal</a>
-                  </li>
+                    <a href="#galeri">Galeri</a>
+                  </li>>
 
                   <li>
                     <a href="#rsvp">RSVP</a>
@@ -186,7 +187,7 @@
         <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
           Assalamu'alaikum Warahmatullahi Wabarakatuh.
           <br />
-          Dengan memohon rahmat dan ridha Allah swt, 
+          Dengan memohon rahmat dan ridha Allah SWT, 
           <br />
           kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara pernikahan kami
         </p>
@@ -246,7 +247,7 @@
               <h1 class="waktu is-larger has-text-centered">
                 Resepsi:
                 <br>
-                <strong>10.00 - 14.00 WIB</strong>
+                <strong>10.30 - 12.30 WIB</strong>
               </h1>
               
               
@@ -274,7 +275,7 @@
               <br>
               Jl. Jend. Sudirman No.8, Kutoharjo, Pandean, 
               <br>
-              Kec. Rembang, Kabupaten Rembang, Jawa Tengah 59211
+              Kec. Rembang, Kab. Rembang, Jawa Tengah 59211
               <br>
             </p>
           </div>
@@ -292,12 +293,12 @@
       </section>
       <!-- End Lokasi Content -->
 
-      <!-- Begin Tentang Sherly and Daeng -->
-      <section class="section-light regular-section is-fullheight" id="tentang-yurieke-reinal">
+      <!-- Begin Galeri -->
+      <section class="section-light regular-section is-fullheight" id="galeri">
         <div class="container">
           <div class="columns is-multiline">  
           <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Tentang Yurieke dan Reinal</h1>
+            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Galeri</h1>
             
 
           
@@ -321,7 +322,7 @@
                   2014 - 2018
                 </p>
                 <p class="subtitle-foto">
-                  LDR Yogyakarta - Guangzhou
+                  Yogyakarta - Guangzhou
                 </p>   
               </div>            
             </article>
@@ -378,7 +379,7 @@
           </div>
         </div>
       </section>
-      <!-- End Tentang Yurieke dan Reinal -->
+      <!-- End Galeri -->
 
       <!-- Begin RSVP Content -->
       <section class="section-dark contact" id="rsvp">
